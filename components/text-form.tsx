@@ -30,7 +30,7 @@ export default function TextForm({ onGenerate, loading }: TextFormProps) {
   };
 
   return (
-    <section className="mt-12">
+    <section>
       <div className="mb-8">
         <label className="mb-2 block text-sm font-medium text-gray-400">
           Tipo de texto

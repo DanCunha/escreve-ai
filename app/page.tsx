@@ -69,16 +69,20 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <div className="mx-auto max-w-4xl px-4 pb-20">
-        <TextForm onGenerate={handleGenerate} loading={loading} />
+      <div className="mx-auto max-w-6xl px-4 pb-20">
+        <div className="mt-12 grid items-start gap-8 lg:grid-cols-2">
+          <TextForm onGenerate={handleGenerate} loading={loading} />
 
-        {error && (
-          <div className="mt-8 rounded-lg border border-red-900/50 bg-red-950/50 p-4 text-sm text-red-400">
-            {error}
+          <div className="space-y-8 lg:sticky lg:top-8">
+            {error && (
+              <div className="rounded-lg border border-red-900/50 bg-red-950/50 p-4 text-sm text-red-400">
+                {error}
+              </div>
+            )}
+
+            <ResultCard result={displayResult} loading={loading} />
           </div>
-        )}
-
-        <ResultCard result={displayResult} loading={loading} />
+        </div>
 
         <History history={history} onView={handleViewHistory} />
       </div>

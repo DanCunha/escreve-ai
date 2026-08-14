@@ -31,7 +31,7 @@ export default function ResultCard({ result, loading }: ResultCardProps) {
   };
 
   return (
-    <section className="mt-8">
+    <section>
       {loading ? (
         <div className="rounded-lg border border-gray-800 bg-gray-900 p-6">
           <div className="animate-pulse space-y-3">
