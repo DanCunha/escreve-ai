@@ -46,7 +46,7 @@ Escreva o e-mail completo com linha de assunto, sauda\u00e7\u00e3o, corpo e desp
     id: "linkedin",
     label: "Post LinkedIn",
     description: "Publica\u00e7\u00f5es profissionais para engajar sua rede",
-    icon: "\U0001f4bc",
+    icon: "💼",
     systemPrompt:
       "Voc\u00ea \u00e9 um especialista em marketing de conte\u00fado para LinkedIn. Crie posts profissionais e engajadores que geram conex\u00e3o com a audi\u00eancia. Responda apenas com o conte\u00fado do post, sem explica\u00e7\u00f5es.",
     userPromptTemplate: `Crie um post para LinkedIn com as seguintes caracter\u00edsticas:
@@ -86,7 +86,7 @@ O post deve ter uma abertura impactante, desenvolvimento do assunto e uma chamad
     id: "product",
     label: "Descri\u00e7\u00e3o de Produto",
     description: "Descri\u00e7\u00f5es persuasivas para e-commerce",
-    icon: "\U0001f3f7\uFE0F",
+    icon: "🏷️",
     systemPrompt:
       "Voc\u00ea \u00e9 um copywriter especializado em e-commerce. Crie descri\u00e7\u00f5es de produto persuasivas que destacam benef\u00edcios e geram desejo de compra. Responda apenas com a descri\u00e7\u00e3o do produto, sem explica\u00e7\u00f5es.",
     userPromptTemplate: `Crie uma descri\u00e7\u00e3o de produto com as seguintes caracter\u00edsticas:
@@ -121,7 +121,7 @@ A descri\u00e7\u00e3o deve incluir um t\u00edtulo chamativo, par\u00e1grafos des
     id: "bio",
     label: "Bio Profissional",
     description: "Bios curtas para redes sociais e portf\u00f3lio",
-    icon: "\U0001f464",
+    icon: "👤",
     systemPrompt:
       "Voc\u00ea \u00e9 um redator especializado em branding pessoal. Crie bios profissionais concisas e impactantes para redes sociais, sites e portf\u00f3lios. Responda apenas com a bio, sem explica\u00e7\u00f5es.",
     userPromptTemplate: `Crie uma bio profissional com as seguintes caracter\u00edsticas:
